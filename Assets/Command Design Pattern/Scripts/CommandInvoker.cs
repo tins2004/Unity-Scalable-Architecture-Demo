@@ -1,7 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 
-public class CommandInvoker
+public static class CommandInvoker
 {
     private static Stack<ICommand> undoStack = new Stack<ICommand>();
     private static Stack<ICommand> redoStack = new Stack<ICommand>();
