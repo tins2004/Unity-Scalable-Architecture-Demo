@@ -16,6 +16,6 @@
 
 ## Thành phần
 
-1. **[Subject/Global Observer:](./Scripts/Observer.cs)**: Đóng vai trò là "tổng đài" trung tâm, lưu trữ tất cả các kênh sự kiện và cung cấp các phương như Add, Remove, Notify để mọi đối tượng trong Game có thể truy cập mà không cần tham chiếu trực tiếp.
-2. **[Listener/Observer](./Scripts/DemoLoger.cs)**: Lắng nghe sự kiện cụ thể. Thực hiện logic phản hồi (như cập nhật UI, Log dữ liệu) khi nhận được callback từ tổng đài. Luôn nhớ gọi RemoveListener trong hàm OnDestroy() hoặc OnDisable() của Listener. Nếu không, Observer sẽ tiếp tục giữ tham chiếu đến đối tượng đã bị xóa, dẫn đến rò rỉ bộ nhớ (Memory Leak).
-3. **[Publisher:](./Scripts/ObserverInputManager.cs)**: Đối tượng phát đi thông báo/gửi dữ liệu đi mà không cần quan tâm ai sẽ nhận dữ liệu đó.
+1. **[Subject/Global Observer:](./Scripts/Observer.cs)** Đóng vai trò là "tổng đài" trung tâm, lưu trữ tất cả các kênh sự kiện và cung cấp các phương như Add, Remove, Notify để mọi đối tượng trong Game có thể truy cập mà không cần tham chiếu trực tiếp.
+2. **[Listener/Observer:](./Scripts/DemoLoger.cs)** Lắng nghe sự kiện cụ thể. Thực hiện logic phản hồi (như cập nhật UI, Log dữ liệu) khi nhận được callback từ tổng đài. Luôn nhớ gọi RemoveListener trong hàm OnDestroy() hoặc OnDisable() của Listener. Nếu không, Observer sẽ tiếp tục giữ tham chiếu đến đối tượng đã bị xóa, dẫn đến rò rỉ bộ nhớ (Memory Leak).
+3. **[Publisher:](./Scripts/ObserverInputManager.cs)** Đối tượng phát đi thông báo/gửi dữ liệu đi mà không cần quan tâm ai sẽ nhận dữ liệu đó.
