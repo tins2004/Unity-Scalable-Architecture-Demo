@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd42d84e252050f449dfe16198e136e9, type: 3}
   m_Name: EquipmentFactory
   m_EditorClassIdentifier: Assembly-CSharp::EquipmentFactory
-  weaponFactory: {fileID: 0}
-  shieldFactory: {fileID: 0}
+  weaponFactory: {fileID: 11400000, guid: c68fbc16ef2f97342a55509a2b027fc1, type: 2}
+  shieldFactory: {fileID: 11400000, guid: c1063668f8e092743b5905c19259a994, type: 2}

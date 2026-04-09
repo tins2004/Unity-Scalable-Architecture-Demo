@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f9913112e961314a910b846bc96d8ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Knight
-  weaponFactory: {fileID: 11400000, guid: da40b5eee666d1f4f9debdf043cb1325, type: 2}
+  equipmentFactory: {fileID: 11400000, guid: a0e8beeaf1f6eb54a90e4d83504e4d9d, type: 2}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
